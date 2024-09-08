@@ -19,8 +19,8 @@ function Header() {
   ];
 
   return (
-    <div className="flex p-8 items-center justify-between bg-[#FF8A8A] shadow-sm">
-      <div className="text-3xl font-bold text-[#F4DEB3] ">Mayank Aggarwal</div>
+    <div className="flex p-8 items-center justify-between bg-[#C8A1E0] shadow-sm">
+      <div className="text-3xl font-bold text-[#fcfcfc] ">Mayank Aggarwal</div>
       <ul className="hidden md:flex gap-6">
         {MENULIST.map((item, index) => (
           <Link key={index} href={item.href}>

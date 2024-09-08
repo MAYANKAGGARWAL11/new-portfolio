@@ -38,28 +38,28 @@ function Contact() {
 
   return (
     <div className="p-10">
-      <h2 className="font-bold text-4xl mb-10">Contact Me</h2>
+      <h2 className="font-bold text-4xl mb-10 text-black">Contact Me</h2>
 
       {/* Links to Social Media */}
       <div className="flex gap-6 mb-10">
         <a href="https://www.linkedin.com/in/mayank-aggarwal-b31777219" target="_blank" rel="noopener noreferrer">
-          <Linkedin size={40} className="hover:text-blue-500 transition-colors duration-300" />
+          <Linkedin size={40} className="hover:text-blue-500 transition-colors duration-300 font-black" />
         </a>
         <a href="https://aggarwal2001mayank@gmail.com">
-          <Mail size={40} className="hover:text-red-500 transition-colors duration-300" />
+          <Mail size={40} className="hover:text-red-500 transition-colors duration-300 font-black " />
         </a>
         <a href="https://github.com/MAYANKAGGARWAL11" target="_blank" rel="noopener noreferrer">
-          <Github size={40} className="hover:text-black-700 transition-colors duration-300" />
+          <Github size={40} className="hover:text-black-700 transition-colors duration-300 font-black" />
         </a>
       </div>
 
       {/* Contact Me Form */}
       <div className="bg-white p-6 rounded-lg shadow-lg">
-        <h3 className="text-2xl mb-4">Contact Me Directly</h3>
+        <h3 className="text-2xl mb-4 font-bold text-black">Contact Me Directly</h3>
         <form onSubmit={handleSubmit}>
           {/* Name */}
           <div className="mb-6">
-            <label className="block text-sm font-medium mb-2">Your Name</label>
+            <label className="block text-sm font-medium mb-2 text-black">Your Name</label>
             <input
               type="text"
               placeholder="Mayank Aggarwal"
@@ -72,7 +72,7 @@ function Contact() {
 
           {/* Email */}
           <div className="mb-6">
-            <label className="block text-sm font-medium mb-2">Your Email</label>
+            <label className="block text-sm font-medium mb-2 text-black">Your Email</label>
             <input
               type="email"
               placeholder="mayank@example.com"
@@ -85,7 +85,7 @@ function Contact() {
 
           {/* Message */}
           <div className="mb-6">
-            <label className="block text-sm font-medium mb-2">Your Message</label>
+            <label className="block text-sm font-medium mb-2 text-black">Your Message</label>
             <textarea
               placeholder="Type your message here..."
               value={message}

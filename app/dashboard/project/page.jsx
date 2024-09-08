@@ -15,14 +15,14 @@ function Project() {
                   alt={project.title}
                   className="w-full h-40 object-cover"
                 />
-                <div className="p-4 bg-[#F4DEB3]">
-                  <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-                  <p className="text-gray-600 mb-2">{project.description}</p>
+                <div className="p-4 bg-[#e4ccde] ">
+                  <h3 className="text-xl text-black font-semibold mb-2">{project.title}</h3>
+                  <p className="text-black mb-2">{project.description}</p>
                   <div className="flex flex-wrap gap-2">
                     {project.techStack.map((tech, index) => (
                       <span
                         key={index}
-                        className="bg-[#FF8A8A] bg-[#FF8A8A] text-slate-100 px-2 py-1 rounded-full text-sm"
+                        className="bg-[#295F98] bg-[#295F98] text-slate-100 px-2 py-1 rounded-full text-sm"
                       >
                         {tech}
                       </span>

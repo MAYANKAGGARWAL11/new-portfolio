@@ -14,12 +14,12 @@ export default function ProjectDetails() {
 
   return (
     <div className="p-4">
-      <h1 className="text-3xl font-bold mb-4">{project.title}</h1>
+      <h1 className="text-3xl text-black font-bold mb-4">{project.title}</h1>
       <div className="flex flex-wrap gap-2 mt-3">
         {project.techStack.map((tech, index) => (
           <span
             key={index}
-            className="bg-[#FF8A8A] bg-[#FF8A8A] text-slate-100 px-2 py-1 rounded-full text-sm"
+            className="bg-[#295F98] bg-[#295F98] text-slate-100 px-2 py-1 rounded-full text-sm"
           >
             {tech}
           </span>
@@ -35,8 +35,8 @@ export default function ProjectDetails() {
 
         {/* Description Section */}
         <div className="lg:w-1/2 flex flex-col justify-between">
-          <h2 className="text-2xl ml-5 font-bold">Description</h2>
-          <p className="text-sm mb-4 mt-3 ml-5">{project.description}</p>
+          <h2 className="text-2xl ml-5 font-bold text-black">Description</h2>
+          <p className="text-sm mb-4 mt-3 ml-5 font-bold text-black">{project.description}</p>
 
           {/* Links Section */}
           <div className="flex flex-row gap-4 ml-5 mt-3">
@@ -68,7 +68,7 @@ export default function ProjectDetails() {
       </div>
 
       {/* Embed YouTube Video */}
-      <h2 className="text-3xl mt-9 font-bold">Explanation Video</h2>
+      <h2 className="text-3xl mt-9 font-bold text-black">Explanation Video</h2>
       <div className="mb-4 mt-9">
         <iframe
           width="100%"

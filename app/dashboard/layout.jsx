@@ -4,7 +4,7 @@ import SideNav from "./_components/SideNav";
 
 function DashboardLayout({ children }) {
   return (
-    <div className="flex flex-col min-h-screen bg-[#F9F5F6] ">
+    <div className="flex flex-col min-h-screen bg-white-100 ">
       {/* Header */}
       <Header />
       

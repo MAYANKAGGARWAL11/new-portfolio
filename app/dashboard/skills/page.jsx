@@ -33,10 +33,10 @@ const skillsData = {
 function Skills() {
   return (
     <div className="p-5">
-      <h1 className="text-3xl font-bold mb-5">My Skills</h1>
+      <h1 className="text-3xl font-bold mb-5 text-black">My Skills</h1>
       {Object.keys(skillsData).map((category, idx) => (
         <div key={idx} className="mb-8">
-          <h2 className="text-xl font-semibold mb-4">{category}</h2>
+          <h2 className="text-xl font-semibold mb-4 text-black">{category}</h2>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {skillsData[category].map((skill, index) => (
               <div

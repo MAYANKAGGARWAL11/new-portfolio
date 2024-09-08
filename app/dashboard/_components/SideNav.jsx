@@ -37,7 +37,7 @@ function SideNav() {
 
   return (
     <div
-      className={`h-screen relative p-5 shadow-sm border transition-width duration-300 bg-[#FF8A8A] ${
+      className={`h-screen relative p-5 shadow-sm border transition-width duration-300 bg-[#C8A1E0] ${
         isCollapsed ? "w-20" : "w-64"
       }`}
     >
@@ -51,7 +51,7 @@ function SideNav() {
           <Link key={index} href={item.href}>
             <div
               className={`flex gap-2 p-3 mb-3 rounded-lg hover:bg-primary hover:text-white cursor-pointer items-center select-none transition-colors duration-200 ${
-                path === item.href && "bg-primary text-white"
+                path === item.href && "bg-primary text-black"
               }`}
             >
               <item.icon className="h-6 w-6 " />
